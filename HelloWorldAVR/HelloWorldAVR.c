@@ -17,7 +17,7 @@ int main()
     // DDRB register is responsible of port B lines direction.
     // If some of bits equals 1 then corresponding port line is used to output data.
     // Otherwise it is used as input.
-    // Here we set 0th port line as output setting 0th bit to 1.
+    // Here we set 0th port line as output by setting 0th bit to 1.
     DDRB = 0x01;
     
     while (true)
